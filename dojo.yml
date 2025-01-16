@@ -20,50 +20,19 @@ modules:
     module: web-security
   visibility:
     start: "2025-01-27T12:00:00-07:00"
-    challenges:
-    - import:
-        challenge: level-1
-    - import:
-        challenge: level-2
-    - import:
-        challenge: level-3
-    - import:
-        challenge: level-4
-    - import:
-        challenge: level-5
-    - import:
-        challenge: level-6
-    - import:
-        challenge: level-7
-    - import:
-        challenge: level-8
-    - import:
-        challenge: level-9
-    - import:
-        challenge: level-10
-    - import:
-        challenge: level-11
-    - import:
-        challenge: level-12
-    - import:
-        challenge: level-13
-    - import:
-        challenge: level-14
-        
+       
     
 - import:
     dojo: intro-to-cybersecurity
     module: intercepting-communication
   visibility:
     start: "2025-02-24T12:00:00-07:00"
-
-
     
 - import:
     dojo: computing-101
     module: assembly-crash-course
   visibility:
-    start: "2025-01-15T00:00:00-07:00"
+    start: "2025-01-27T00:00:00-07:00"
     
 - id: reverse-engineering
   name: Reverse Engineering
@@ -77,7 +46,7 @@ modules:
     For the `Reverse Engineering` levels, the challenge is in `/challenge`, but named differently for each level. The levelX.0 are "teaching" challenges that have output that shows what the challenge is doing. The levelX.1 challenges are similar (but not the same) but have no output: you'll need to reverse engineer the binary.
 
   visibility:
-    start: "2025-01-15T00:00:00-07:00"
+    start: "2025-01-27T00:00:00-07:00"
   challenges:
   - name: "Debugging Refresher: level1"
     import:
