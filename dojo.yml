@@ -20,6 +20,36 @@ modules:
     module: web-security
   visibility:
     start: "2025-01-27T12:00:00-07:00"
+    challenges:
+    - import:
+        challenge: level-1
+    - import:
+        challenge: level-2
+    - import:
+        challenge: level-3
+    - import:
+        challenge: level-4
+    - import:
+        challenge: level-5
+    - import:
+        challenge: level-6
+    - import:
+        challenge: level-7
+    - import:
+        challenge: level-8
+    - import:
+        challenge: level-9
+    - import:
+        challenge: level-10
+    - import:
+        challenge: level-11
+    - import:
+        challenge: level-12
+    - import:
+        challenge: level-13
+    - import:
+        challenge: level-14
+        
     
 - import:
     dojo: intro-to-cybersecurity
