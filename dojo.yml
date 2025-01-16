@@ -17,9 +17,9 @@ modules:
 
 - import:
     dojo: intro-to-cybersecurity
-    module: web-security
+    module: intercepting-communication
   visibility:
-    start: "2025-01-27T12:00:00-07:00"
+    start: "2025-02-24T12:00:00-07:00"
 
 - import:
     dojo: intro-to-cybersecurity
